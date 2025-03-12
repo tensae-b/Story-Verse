@@ -37,18 +37,18 @@
 </script>
 
 <div
-	class=" h-screen bg-purple-800/30font-{font} bg-cover p-10"
+	class=" bg-purple-800/30font-{font} h-full bg-cover p-10"
 	style="background-image: url({background});  font-family: {font}; background-color:#c5bde5"
 >
-	<div class="flex h-full w-full flex-col items-center justify-center gap-0">
-		<div class=" w-[50%] rounded-t-lg bg-white/40">
+	<div class="flex h-full w-full flex-col items-center gap-0 lg:items-center">
+		<div class="w-full rounded-t-lg bg-white/40 xl:w-[60%]">
 			<h2
 				class="flex w-full justify-between rounded-lg bg-[#7e63f8] px-10 py-7 text-3xl text-white"
 			>
 				<iconify-icon icon="hugeicons:stars" width="40" height="40"></iconify-icon>
 				Story verse <iconify-icon icon="hugeicons:stars" width="40" height="40"></iconify-icon>
 			</h2>
-			<div class="bg-[#b7a8fa]/10 p-12">
+			<div class="bg-[#b7a8fa]/10 p-5 md:p-12">
 				<div class=" rounded-md border-2 border-[#7e63f8]/20 bg-white/70 p-5">
 					<form
 						method="POST"
@@ -65,9 +65,9 @@
 						}}
 					>
 						<div
-							class="  flex w-full gap-5 rounded-md border-2 border-[#7e63f8]/20 bg-[#b7a8fa]/10 px-7 py-12"
+							class="  flex w-full flex-col gap-5 rounded-md border-2 border-[#7e63f8]/20 bg-[#b7a8fa]/10 px-2 py-12 lg:px-7"
 						>
-							<div class="flex w-full items-center justify-between">
+							<div class="flex w-full flex-col items-center justify-between lg:flex-row">
 								<div class="flex flex-col items-start gap-3">
 									<label for="celebrity"> Celebrity </label>
 									<select
@@ -109,7 +109,7 @@
 						</div>
 						<button
 							type="submit"
-							class="absolute -bottom-5 w-[20%] self-center rounded-md bg-[#7e63f8] px-5 py-3 text-white"
+							class="absolute -bottom-5 w-40 self-center rounded-md bg-[#7e63f8] px-5 py-3 text-white lg:w-[20%]"
 							on:click={handleSelect}
 						>
 							Generate</button

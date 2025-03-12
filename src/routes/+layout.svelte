@@ -3,6 +3,6 @@
 	let { children } = $props();
 </script>
 
-<div class=" ">
+<div class="h-full">
 	<slot />
 </div>
