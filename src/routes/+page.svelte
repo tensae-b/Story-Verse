@@ -33,8 +33,6 @@
 		const genreItem = genre.find((g) => g.label === selected);
 		background = genreItem ? genreItem.gif : '';
 		font = genreItem && genreItem.font ? genreItem.font : '';
-
-		console.log(selected, background);
 	}
 </script>
 
