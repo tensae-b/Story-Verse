@@ -37,7 +37,7 @@
 </script>
 
 <div
-	class=" bg-purple-800/30font-{font} h-full bg-cover p-10"
+	class=" bg-purple-800/30 font-{font} h-full bg-cover p-10"
 	style="background-image: url({background});  font-family: {font}; background-color:#c5bde5"
 >
 	<div class="flex h-full w-full flex-col items-center gap-0 lg:items-center">
