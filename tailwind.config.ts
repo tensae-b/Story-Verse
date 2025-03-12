@@ -5,7 +5,17 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				cinzel: ['Cinzel', 'sans'],
+				exo: ['exo', 'sans'],
+				creepster: ['creepster', 'sans'],
+				elite: ['elite', 'sans'],
+				fairDisplay: ['fairDisplay', 'sans'],
+				courier: ['courier', 'sans'],
+				chewy: ['Chewy', 'sans']
+			}
+		}
 	},
 
 	plugins: [typography]
